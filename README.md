@@ -97,17 +97,4 @@ The `build()` method returns a `Widget` tree that describes the visual structure
 ### 5. Why did you use `SingleChildScrollView` in the profile page?
 `SingleChildScrollView` provides vertical scrolling functionality whenever the page contents exceed the visible screen height. This prevents "RenderFlex overflowed" errors and ensures that all profile details, the about section, and interest chips remain accessible on devices with smaller displays or in landscape mode.
 
----
 
-## 📋 Activity Submission Checklist
-
-- [x] Application builds and runs without any errors.
-- [x] No `StatefulWidget` or `setState()` used.
-- [x] `flutter analyze` passes with zero issues.
-- [x] Widget tests pass cleanly.
-- [x] AppBar title is `Student Profile`.
-- [x] Avatar shows initials (`KL`).
-- [x] Name, course, bio, and hobbies are displayed cleanly.
-- [x] Student details (548096, 3rd Year - CCE106, k.lupogan548096@umindanao.edu.ph) filled into lib/student_profile_page.dart.
-- [ ] Output screenshot saved as `Lupogan_KJ_Lab1_Output.png`.
-- [ ] Code committed and pushed to GitHub repository.
